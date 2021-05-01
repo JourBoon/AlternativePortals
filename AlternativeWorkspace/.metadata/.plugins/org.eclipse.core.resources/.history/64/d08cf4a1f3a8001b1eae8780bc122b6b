@@ -1,0 +1,28 @@
+package fr.alternativeportals.mod;
+
+
+@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.VERSION)
+public class AlternativePortals {
+	
+	@Instance
+	public static Main instance;
+	
+	@SidedProxy(clientSide = Reference.CLIENT, serverSide = Reference.COMMON)
+	public static CommonProxy proxy;
+	
+	@EventHandler
+	public static void PreInit(FMLPreInitializationEvent event) {
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+	}
+	
+	@EventHandler
+	public static void init(FMLInitializationEvent event) {
+		
+	}
+	
+	@EventHandler
+	public static void postInit(FMLPostInitializationEvent event) {
+		
+	}
+
+}

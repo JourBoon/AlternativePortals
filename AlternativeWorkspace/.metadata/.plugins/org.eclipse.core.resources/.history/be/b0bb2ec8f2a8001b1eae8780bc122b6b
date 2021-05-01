@@ -1,0 +1,5 @@
+package fr.alternativeportals.mod.proxy;
+
+public class ClientProxy {
+
+}

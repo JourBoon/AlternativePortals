@@ -1,0 +1,16 @@
+[
+{
+  "modid": "alternativep",
+  "name": "Alternative Portals",
+  "description": "Plus tard",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["JourBoon & Ploustic"],
+  "credits": "SAUCISSE",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

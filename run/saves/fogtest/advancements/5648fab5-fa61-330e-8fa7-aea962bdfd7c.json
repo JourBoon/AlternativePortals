@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "mesa_rock": "2021-04-30 17:34:17 +0200",
+      "mesa": "2021-04-30 17:34:11 +0200"
+    },
+    "done": false
+  }
+}
